@@ -5,19 +5,19 @@ O localStorage e sessionStorage são recursos importantes da API de Armazenament
 
 MÉTODOS
 
-clear() 
+clear()<br>
 // APAGA todas as chaves do LocalStorage / SessionStorage
 => Exemplo: localStorage.clear();
 
-getItem("KEY") 
+getItem("KEY") <br>
 // Retorna o conteúdo armazenado na chave indicada como KEY
 => Exemplo: let minhaLista = localStorage.getItem("Nome escolhido como KEY"); 
 
-removeItem() 
+removeItem() <br>
 // Quando passado um nome de chave, irá remover essa chave do armazenamento
 => Exemplo: localStorage.removeItem("KEY");
 
-setItem("KEY", "Valor") 
+setItem("KEY", "Valor") <br>
 // Recebe 2 parâmetros "KEY" e "valor a ser armazenado"
 => Exemplo: localStorage.setItem("KEY", "Conteúdo");
 
