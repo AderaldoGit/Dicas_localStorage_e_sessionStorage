@@ -1,0 +1,1 @@
+# Dicas_localStorage_e_sessionStorage
