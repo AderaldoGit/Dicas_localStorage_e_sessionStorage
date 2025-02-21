@@ -1,18 +1,24 @@
 # Dicas de uso localStorage e sessionStorage
 O localStorage e sessionStorage são recursos importantes da API de Armazenamento da Web (Web Storage API), que permitem aos desenvolvedores armazenar dados localmente no navegador do usuário.
 
+![Image](https://github.com/user-attachments/assets/af2aa6e3-2109-4887-825a-e84266b26679)
+
 MÉTODOS
 
-clear() // APAGA todas as chaves do LocalStorage / SessionStorage
+clear() 
+// APAGA todas as chaves do LocalStorage / SessionStorage
 => Exemplo: localStorage.clear();
 
-getItem("KEY") // Retorna o conteúdo armazenado na chave indicada como KEY
+getItem("KEY") 
+// Retorna o conteúdo armazenado na chave indicada como KEY
 => Exemplo: let minhaLista = localStorage.getItem("Nome escolhido como KEY"); 
 
-removeItem() // Quando passado um nome de chave, irá remover essa chave do armazenamento
+removeItem() 
+// Quando passado um nome de chave, irá remover essa chave do armazenamento
 => Exemplo: localStorage.removeItem("KEY");
 
-setItem("KEY", "Valor") // Recebe 2 parâmetros "KEY" e "valor a ser armazenado"
+setItem("KEY", "Valor") 
+// Recebe 2 parâmetros "KEY" e "valor a ser armazenado"
 => Exemplo: localStorage.setItem("KEY", "Conteúdo");
 
 Você pode usar esses métodos para aplicações que tem variáveis que pode perder seu valor ao recarregar pagina por acidente.
