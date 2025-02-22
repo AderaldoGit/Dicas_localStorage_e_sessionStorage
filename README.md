@@ -2,6 +2,7 @@
 O localStorage e sessionStorage são recursos importantes da API de Armazenamento da Web (Web Storage API), que permitem aos desenvolvedores armazenar dados localmente no navegador do usuário.
 <br>
 * Detalhe importante, se o usuário limpar dados de navegação a ação também apaga o localStorage e sessionStorage.
+* localStorage e sessionStorage armazena até 5MB (um cookie armazena 4kb)
 
 ![Image](https://github.com/user-attachments/assets/af2aa6e3-2109-4887-825a-e84266b26679)
 
